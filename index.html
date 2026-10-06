@@ -61,9 +61,9 @@
 
         let chatHistory = [];
 
-        window.onload = () => {
-            fetchAI("안녕! 나는 민준이야. 하아... (시무룩한 표정으로 땅만 바라보고 있다)", true);
-        };
+window.onload = () => {
+    fetchAI("안녕! 나는 민준이야. 하아... (시무룩한 표정으로 땅만 바라보고 있다) 절대 버스나 정류장 같은 다른 상황 설명은 먼저 하지 말고, 딱 이 시무룩한 감정 상태만 표현하며 첫인사를 건네줘. 3가지 언어로 번역해서 출력하는 것도 잊지 마.", true);
+};
 
         async function sendMessage() {
             const input = document.getElementById('user-input');
